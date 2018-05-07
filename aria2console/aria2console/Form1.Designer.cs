@@ -40,6 +40,7 @@
             this.停止ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.退出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.button3 = new System.Windows.Forms.Button();
+            this.启动WEBUIToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,42 +79,43 @@
             this.隐藏ToolStripMenuItem,
             this.启动ToolStripMenuItem,
             this.停止ToolStripMenuItem,
+            this.启动WEBUIToolStripMenuItem,
             this.退出ToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(130, 114);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 158);
             // 
             // 显示ToolStripMenuItem
             // 
             this.显示ToolStripMenuItem.Name = "显示ToolStripMenuItem";
-            this.显示ToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.显示ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.显示ToolStripMenuItem.Text = "显示";
             this.显示ToolStripMenuItem.Click += new System.EventHandler(this.显示ToolStripMenuItem_Click);
             // 
             // 隐藏ToolStripMenuItem
             // 
             this.隐藏ToolStripMenuItem.Name = "隐藏ToolStripMenuItem";
-            this.隐藏ToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.隐藏ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.隐藏ToolStripMenuItem.Text = "隐藏";
             this.隐藏ToolStripMenuItem.Click += new System.EventHandler(this.隐藏ToolStripMenuItem_Click);
             // 
             // 启动ToolStripMenuItem
             // 
             this.启动ToolStripMenuItem.Name = "启动ToolStripMenuItem";
-            this.启动ToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.启动ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.启动ToolStripMenuItem.Text = "启动aria2";
             this.启动ToolStripMenuItem.Click += new System.EventHandler(this.启动ToolStripMenuItem_Click);
             // 
             // 停止ToolStripMenuItem
             // 
             this.停止ToolStripMenuItem.Name = "停止ToolStripMenuItem";
-            this.停止ToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.停止ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.停止ToolStripMenuItem.Text = "停止aria2";
             this.停止ToolStripMenuItem.Click += new System.EventHandler(this.停止ToolStripMenuItem_Click);
             // 
             // 退出ToolStripMenuItem
             // 
             this.退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.退出ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.退出ToolStripMenuItem.Text = "退出";
             this.退出ToolStripMenuItem.Click += new System.EventHandler(this.退出ToolStripMenuItem_Click);
             // 
@@ -126,6 +128,13 @@
             this.button3.Text = "hide";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // 启动WEBUIToolStripMenuItem
+            // 
+            this.启动WEBUIToolStripMenuItem.Name = "启动WEBUIToolStripMenuItem";
+            this.启动WEBUIToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.启动WEBUIToolStripMenuItem.Text = "启动WEBUI";
+            this.启动WEBUIToolStripMenuItem.Click += new System.EventHandler(this.启动WEBUIToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -160,6 +169,7 @@
         private System.Windows.Forms.ToolStripMenuItem 停止ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 退出ToolStripMenuItem;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ToolStripMenuItem 启动WEBUIToolStripMenuItem;
     }
 }
 

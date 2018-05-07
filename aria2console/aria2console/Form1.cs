@@ -107,5 +107,10 @@ namespace aria2console
             stopProcess();
             Application.Exit();
         }
+
+        private void 启动WEBUIToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://aria2c.com/");
+        }
     }
 }
